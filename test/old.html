@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>开始学习HTML标签吧</title>
+    <meta name="keywords" content="html,css,tutorial" />
+    <style>
+        .hi {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="hi">hello world！</p>
+    <!-- h1-h5标签的</html>使用 -->
+    <h1>我是一级标题</h1>
+    <h2>我是二级标题</h2>
+    <h3>我是三级标题</h3>
+    <h4>我是四级标题</h4>
+    <h5>我是五级标题</h5>
+    <h6>我是六级标题</h6>
+
+    <!-- 列表标签的使用 -->
+    <ul>
+        <li>无序列表</li>
+        <li>无序列表</li>
+        <li>无序列表</li>
+    </ul>
+
+    <!-- 列表标签的使用 -->
+    <ol>
+        <li>有序列表</li>
+        <li>有序列表</li>
+        <li>有序列表</li>
+    </ol>
+
+    <!-- 图片标签的使用 -->
+    <img src="https://b.bdstatic.com/searchbox/icms/searchbox/img/san_logo.png" alt="san logo">
+    <!-- 图片资源无法成功加载 -->
+    <img src="https://b.bdstatic.com/searchbox/icms/searchbox/img/san_logo1.png" alt="san logo">
+    <!--   图片设置属性 -->
+    <img width="100" src="https://b.bdstatic.com/searchbox/icms/searchbox/img/san_logo.png" alt="this is a white house">
+
+    <!-- 超链接属性 -->
+    <a href="http://www.w3school.com.cn">W3School<!--注释--></a>
+
+    <!--  span -->
+    <span>文本</span>
+
+    <!-- 其包含的内容被认定为越需要着重阅读，一般用斜体 -->
+    <p>
+        这是一段普通的文本<em>这是强调的内容</em>。
+    </p>
+
+    <!-- 表示文本十分重要，一般用粗体显示 -->
+    <p>这是一段普通的文本 <strong>这是强调的内容。</strong></p>
+
+    <!-- 默认值。单行的文本区域，输入中的换行会被自动去除。 -->
+    <input type="text" />
+    <input type="text" placeholder="请填写文本信息" />
+    <!-- 复选框，可设为选中或未选中。 -->
+    <input type="checkbox" id="cbox1" value="first_checkbox" /> first checkbox
+    <input type="checkbox" id="cbox2" value="second_checkbox" /> second checkbox
+
+    <!--  优化写法 -->
+    <label><input
+        type="checkbox"
+        id="cbox1-pro"
+        value="first_checkbox"
+      />first_checkbox</label
+    >
+    <label
+      ><input
+        type="checkbox"
+        id="cbox2-pro"
+        value="second_checkbox"
+      />second_checkbox</label
+    >
+
+    <!-- 让用户选择文件的控件 -->
+    <input type="file" />
+    <!-- 单选框 -->
+    <label><input type="radio" name="radio" id="radio1" />first radio</label>
+
+    <label><input type="radio" name="radio" id="radio2" />second radio</label>
+
+    <!-- 控制范围 -->
+    <input type="range" />
+
+    <!-- 多行纯文本编辑控件 -->
+    <!-- cols表示文本域的可视宽度，rows表示元素的输入文本的行数（显示的高度） -->
+    <textarea name="story" rows="5" cols="20">
+            this is a textarea
+        </textarea>
+</body>
+
+</html>
